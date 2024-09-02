@@ -1,21 +1,36 @@
-# miad-g8-project
+# MIAD G8 - Proyecto de Clasificación de Clases Sociales en Colombia
 
-Proyecto Final para clase de Aprendizaje No Supervisado
+Este repositorio contiene el código, datos y recursos relacionados con nuestro proyecto que explora la clasificación de clases sociales en Colombia utilizando algoritmos de aprendizaje no supervisado. Basado en datos del **DANE** y aplicado con técnicas como **K-means**, **clustering jerárquico** y **DBSCAN**, este proyecto busca identificar patrones y agrupamientos naturales dentro de la población colombiana.
 
-## Documento con propuesta inicial
+## Estructura del Repositorio
 
-El documento consiste en una propuesta de trabajo de una pregunta/problema que piensan resolver. El documento debe estar escrito con la suficiente claridad y antecedentes para que el lector comprenda el objetivo del documento y debe ir en formato PDF. Este debe incluir las siguientes secciones:
+- **`data/`**  
+  Contiene el dataset inicial utilizado en el análisis exploratorio. Este dataset fue extraído de los datos abiertos del DANE y contiene variables socioeconómicas clave como ingresos, ocupación, nivel educativo y edad.
 
-Título del proyecto.
+- **`research/`**  
+  Incluye los papers relevantes utilizados para fundamentar el trabajo, proporcionando el marco teórico y metodológico de apoyo al proyecto.
 
-Resumen. Una síntesis de lo hecho hasta el momento. Ésta es una parte critica de un trabajo, de hecho, es a veces lo único que se lee. Es por ello, que es una parte integral del proyecto y en esta primera entrega se espera que ustedes tengan una primera aproximación que irán mejorando con el tiempo
+- **`Entrega_1_Proyecto.pdf`**  
+  Aquí encontrarás el documento inicial del proyecto, que presenta la motivación, metodología y objetivos del trabajo, además del análisis descriptivo de los datos.
 
-Introducción. Donde se establece el problema o la pregunta bien definida con una motivación clara para resolverla.
+- **`Entrega_1_Exploracion_datos.ipynb`**  
+  El notebook donde se realizó el análisis exploratorio de los datos. Este notebook incluye gráficos y estadísticas que ayudan a comprender las características del dataset y las relaciones entre las variables.
 
-Revisión preliminar de antecedentes en la literatura. Revisión de literatura nacional e internacional, para enriquecer el proyecto con lo que ya se haya escrito sobre el tema que se va a tratar.  
+## Objetivos
 
-Descripción detallada de los datos.  Descripción que incorpore estadísticas descriptivas y/o visualizaciones.
+El objetivo principal es explorar y comparar agrupamientos naturales de la población colombiana utilizando algoritmos de aprendizaje no supervisado y contrastarlos con la clasificación oficial del **DANE**. Este análisis tiene implicaciones para mejorar las políticas públicas y adaptar las intervenciones sociales a las verdaderas necesidades de la población.
 
-Propuesta metodológica. En esta sección debe mostrarse cómo el proyecto incorpora aprendizaje no supervisado y qué algoritmo planean utilizar. (Este algoritmo puede ser preliminar y pueden modificarlo para la entrega final, si ven que a lo largo del curso incorporan nuevas herramientas que pueden resultar más apropiadas)
+## Requisitos
 
-Bibliografía. Incorpora los artículos mencionados en el texto.
+Asegúrate de tener instalados los siguientes paquetes antes de ejecutar los notebooks:
+
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+
+Puedes instalarlos utilizando pip:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
