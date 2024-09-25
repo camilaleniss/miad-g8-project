@@ -5,16 +5,19 @@ Este repositorio contiene el código, datos y recursos relacionados con nuestro 
 ## Estructura del Repositorio
 
 - **`data/`**  
-  Contiene el dataset inicial utilizado en el análisis exploratorio. Este dataset fue extraído de los datos abiertos del DANE y contiene variables socioeconómicas clave como ingresos, ocupación, nivel educativo y edad.
+  Contiene los datasets utilizados en el proyecto. Inicialmente contiene el dataset para la limpieza, fue extraído de los datos abiertos del DANE y contiene variables socioeconómicas clave como ingresos, ocupación, nivel educativo y edad. Luego de la limpieza, se exportó otro dataset para correr los modelos sobre este.
 
 - **`research/`**  
   Incluye los papers relevantes utilizados para fundamentar el trabajo, proporcionando el marco teórico y metodológico de apoyo al proyecto.
 
-- **`Entrega_1_Proyecto.pdf`**  
-  Aquí encontrarás el documento inicial del proyecto, que presenta la motivación, metodología y objetivos del trabajo, además del análisis descriptivo de los datos.
+- **`docs/`**  
+  Aquí encontrarás los documentos de entrega inicial y final del proyecto. En el doc inicial podrás encontrar  documento inicial la motivación, metodología y objetivos del trabajo, además del análisis descriptivo de los datos. Mientras que en el documento final se encuentran los resultados y conclusiones del proyexto
 
-- **`Entrega_1_Exploracion_datos.ipynb`**  
-  El notebook donde se realizó el análisis exploratorio de los datos. Este notebook incluye gráficos y estadísticas que ayudan a comprender las características del dataset y las relaciones entre las variables.
+- **`notebooks`**  
+  Contiene los notebooks para el paso a paso del proyecto:
+  - Notebook de análisis exploratorio: Este notebook incluye gráficos y estadísticas que ayudan a comprender las características del dataset y las relaciones entre las variables.
+  - Notebook de limpieza de datos: En este notebook encuentra todo el proceso de imputación, validación y mapeo que comprende la limpieza de los datos, y las decisiones tomadas en esta fase.
+  - Notebooks de modelos: En este notebook se encuentra todos los modelos aplicados para resolver el problema, PCA, y conclusiones sobre el proyecto.
 
 ## Objetivos
 
