@@ -13,11 +13,11 @@ Este repositorio contiene el código, datos y recursos relacionados con nuestro 
 - **`docs/`**  
   Aquí encontrarás los documentos de entrega inicial y final del proyecto. En el doc inicial podrás encontrar  documento inicial la motivación, metodología y objetivos del trabajo, además del análisis descriptivo de los datos. Mientras que en el documento final se encuentran los resultados y conclusiones del proyexto
 
-- **`notebooks`**  
+- **`notebooks/`**  
   Contiene los notebooks para el paso a paso del proyecto:
-  - Notebook de análisis exploratorio: Este notebook incluye gráficos y estadísticas que ayudan a comprender las características del dataset y las relaciones entre las variables.
-  - Notebook de limpieza de datos: En este notebook encuentra todo el proceso de imputación, validación y mapeo que comprende la limpieza de los datos, y las decisiones tomadas en esta fase.
-  - Notebooks de modelos: En este notebook se encuentra todos los modelos aplicados para resolver el problema, PCA, y conclusiones sobre el proyecto.
+  - **Notebook de análisis exploratorio:** Este notebook incluye gráficos y estadísticas que ayudan a comprender las características del dataset y las relaciones entre las variables.
+  - **Notebook de limpieza de datos:** En este notebook encuentra todo el proceso de imputación, validación y mapeo que comprende la limpieza de los datos, y las decisiones tomadas en esta fase.
+  - **Notebooks de modelos:** En este notebook se encuentra todos los modelos aplicados para resolver el problema, PCA, y conclusiones sobre el proyecto.
 
 ## Objetivos
 
