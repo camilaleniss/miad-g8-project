@@ -1,0 +1,5 @@
+outs:
+- md5: c8173d8e3391ddb4c0d16cc26fa53e49
+  size: 103077960
+  hash: md5
+  path: nivel_pobreza_personas.csv
