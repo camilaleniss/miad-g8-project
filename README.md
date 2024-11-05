@@ -23,6 +23,34 @@ Este repositorio contiene el código, datos y recursos relacionados con nuestro 
 
 El objetivo principal es explorar y comparar agrupamientos naturales de la población colombiana utilizando algoritmos de aprendizaje no supervisado y contrastarlos con la clasificación oficial del **DANE**. Este análisis tiene implicaciones para mejorar las políticas públicas y adaptar las intervenciones sociales a las verdaderas necesidades de la población.
 
+## DVC
+
+Nuestra herramienta de control de versiones de datos es DVC. Para poder trabajar con los datos originales, los cuales se encuentran almacenados en S3 se debe instalar DVC ejecutando:
+
+- `pip install dvc`
+- `pip install "dvc[s3]`
+
+Para descargar los datos localmente requeriras tener configurado:
+Opcion 1: Instalar aws cli
+- `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o ~/"awscliv2.zip" `
+- `sudo apt install unzip`
+- `unzip ~/awscliv2.zip -d ~/`
+- `sudo ~/aws/install`
+- `Configurar credenciales de AWS`
+- `aws configure --> Se debe insertar la secret key y la acess key. La region debe ser us-east-1`
+- `aws configure set aws_session_token SESSIONTOKEN`
+Opcion 2: definir variables de entorno (Si no se instalo AWS CLI)
+export AWS_SECRET_ACCESS_KEY=
+export  AWS_ACCESS_KEY_ID=
+export  AWS_SESSION_TOKEN=
+
+## MLflow
+
+Asegúrate de tener instalados los siguientes paquetes para poder registrar los experimentos de los modelos en MLflow:
+
+- `pip3 install mlflow`
+Ejecute la interfaz grafica de MLFLOW: mlflow ui —> Queda en el la dirección: http://localhost:5000/
+
 ## Requisitos
 
 Asegúrate de tener instalados los siguientes paquetes antes de ejecutar los notebooks:
